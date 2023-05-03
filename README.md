@@ -12,6 +12,5 @@ contains:
 - Testing examples using cubits 
 
 
-
-https://user-images.githubusercontent.com/8269186/235818844-899bd229-a50c-42b2-888c-bdba340cfc7b.mov
+https://user-images.githubusercontent.com/8269186/235819445-29c5d905-12e7-4a67-8b74-ad4388c6a994.mov
 
