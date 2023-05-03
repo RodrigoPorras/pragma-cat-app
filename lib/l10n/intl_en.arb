@@ -4,5 +4,6 @@
     "originCountry" : "Origin Country",
     "intelligence" : "Intelligence",
     "mainTitle" : "Catbreeds",
-    "adaptability": "Adaptability"
+    "adaptability": "Adaptability",
+    "lifeSpan": "Life Span"
 }

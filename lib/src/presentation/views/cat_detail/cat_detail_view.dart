@@ -14,7 +14,10 @@ class CatDetailView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text(cat.name)),
       body: Column(children: [
-        MyImage(referenceImageId: cat.referenceImageId),
+        SizedBox(
+          height: MediaQuery.of(context).size.height / 2,
+          child: MyImage(referenceImageId: cat.referenceImageId),
+        ),
         Expanded(
           child: ListView(
             padding: const EdgeInsets.all(16.0),
@@ -34,6 +37,10 @@ class CatDetailView extends StatelessWidget {
               ),
               Text(
                 '${labels.adaptability}: ${cat.adaptability}',
+                style: const TextStyle(fontSize: 25),
+              ),
+              Text(
+                '${labels.lifeSpan}: ${cat.lifeSpan}',
                 style: const TextStyle(fontSize: 25),
               ),
             ],

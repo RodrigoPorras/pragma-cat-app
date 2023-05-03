@@ -109,6 +109,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Life Span`
+  String get lifeSpan {
+    return Intl.message(
+      'Life Span',
+      name: 'lifeSpan',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

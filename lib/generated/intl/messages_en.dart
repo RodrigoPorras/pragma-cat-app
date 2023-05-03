@@ -25,6 +25,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "adaptability": MessageLookupByLibrary.simpleMessage("Adaptability"),
         "breed": MessageLookupByLibrary.simpleMessage("Breed"),
         "intelligence": MessageLookupByLibrary.simpleMessage("Intelligence"),
+        "lifeSpan": MessageLookupByLibrary.simpleMessage("Life Span"),
         "mainTitle": MessageLookupByLibrary.simpleMessage("Catbreeds"),
         "more": MessageLookupByLibrary.simpleMessage("More..."),
         "originCountry": MessageLookupByLibrary.simpleMessage("Origin Country")

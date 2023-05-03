@@ -1,5 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
+import 'package:pragma_cat_app/src/utils/constants/strings.dart';
 
 class MyImage extends StatelessWidget {
   final String referenceImageId;
@@ -9,7 +10,7 @@ class MyImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return CachedNetworkImage(
       fit: BoxFit.cover,
-      imageUrl: "https://cdn2.thecatapi.com/images/$referenceImageId.jpg",
+      imageUrl: "$baseImageUrl/$referenceImageId.jpg",
       progressIndicatorBuilder: (context, url, downloadProgress) => Center(
         child: CircularProgressIndicator(value: downloadProgress.progress),
       ),
