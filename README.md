@@ -11,7 +11,7 @@ contains:
 - BLOC/Cubit as a state managment 
 - Testing examples using cubits 
 
-NOTE: .env file was added to source code just for testing purposes facilities.
+NOTE: .env file was added to source code just for testing facilities.
 
 https://user-images.githubusercontent.com/8269186/235819445-29c5d905-12e7-4a67-8b74-ad4388c6a994.mov
 
