@@ -1,16 +1,17 @@
 # pragma_cat_app
 
-A new Flutter project.
+A flutter project for show breed cats and their details 
 
-## Getting Started
+## Flutter version  3.7.10 
+## Remember to execute before run: flutter pub run build_runner build --delete-conflicting-outputs
 
-This project is a starting point for a Flutter application.
+contains:
 
-A few resources to get you started if this is your first Flutter project:
+- Clean arquitecture 
+- BLOC/Cubit as a state managment 
+- Testing examples using cubits 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+https://user-images.githubusercontent.com/8269186/235818844-899bd229-a50c-42b2-888c-bdba340cfc7b.mov
+
